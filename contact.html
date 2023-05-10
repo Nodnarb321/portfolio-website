@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="img/Brandon_logo1.png">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <title>Brandon Balliet - Portfolio</title>
+</head>
+<body>
+  <header class="page-header divider">
+    <a href="index.html"><img src="img/logo.svg" alt="logo" class="page-header_item logo"></a>
+    <nav class="main-navigation page-header_item container topBottomBordersOut">
+      <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+              <a href="index.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Home</a>
+          </li>
+          <li role="presentation">
+              <a href="about.html" role="menuitem" class="navigation-list_item">About Me</a>
+          </li>
+          <li role="presentation">
+              <a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
+          </li>
+          <li role="presentation">
+              <a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
+          </li>
+      </ul>
+    </nav>
+  </header>
+  <br>
+  <main class="contact_main">
+    <form action="" method="post" id="contact-form">
+      <label class="standard-label" for="contact-email">E-mail: </label>
+      <input type="email" id="contact-email" required>
+
+      <label class="standard-label" for="contact-tel">Telephone: </label>
+      <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+      <label class="standard-label" for="contact-text">Message: </label>
+      <textarea maxlength="240" required id="contact-text"></textarea>
+      <input type="submit" value="Send message">
+    </form>
+    <br>
+    <ul class="contact_me">
+      <li>
+          <a href="tel:+1(610)-969-5281">Tel: (610) 969-5281</a>
+      </li>
+      <li>
+          <a href="mailto:bball1175@gmail.com">Bball1175@gmail.com</a>
+      </li>
+    </ul>
+    <button><a href="mailto:bball1175@gmail.com" class="contact-me">Contact me</a></button>
+    <br>
+  </main>
+    <footer class="page-footer">
+      <div>
+          <p class="page-footer_item">Find me on</p>
+          <button class="page-footer_item"><a href="https://github.com/" target="_blank"><img src="img/Github.svg" alt="Github"></a></button>
+          <button class="page-footer_item"><a href="https://twitter.com/" target="_blank"><img src="img/Twitter.svg" alt="Twitter"></a></button>
+          <button class="page-footer_item"><a href="https://www.linkedin.com/in/brandon-balliet-521a10233/" target="_blank"><img src="img/Linkedin.svg" alt="LinkedIn"></a></button>
+      </div>
+      <a href="#" class="page-footer_item">Back to top</a>
+    </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+</html>
