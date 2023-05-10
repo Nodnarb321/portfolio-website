@@ -183,8 +183,8 @@ Navigation Menu
   margin-left: 15px;
 }
 
-.topBottomBordersOut a:before,
-.topBottomBordersOut a:after {
+.topBottomBordersOut a::before,
+.topBottomBordersOut a::after {
   position: absolute;
   left: 0;
   width: 100%;
@@ -195,18 +195,18 @@ Navigation Menu
   transition: all 0.3s;
 }
 
-.topBottomBordersOut a:before {
+.topBottomBordersOut a::before {
   top: 0;
   transform: translateY(10px);
 }
 
-.topBottomBordersOut a:after {
+.topBottomBordersOut a::after {
   bottom: 0;
   transform: translateY(-10px);
 }
 
-.topBottomBordersOut a:hover:before,
-.topBottomBordersOut a:hover:after {
+.topBottomBordersOut a:hover::before,
+.topBottomBordersOut a:hover::after {
   opacity: 1;
   transform: translateY(0);
 }
