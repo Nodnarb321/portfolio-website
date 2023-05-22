@@ -47,7 +47,13 @@ h3 {
 .about-me {
   max-width: 500px;
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
+}
+
+.table-class,
+.table-years,
+.table-skills {
+  padding: 25px;
 }
 
 /*
@@ -57,7 +63,7 @@ Links
 */
 
 a {
-  color: white;
+  color: black;
 }
 
 a:hover,
@@ -98,6 +104,19 @@ Forms
 .contact_me {
   text-decoration: none;
   list-style-type: none;
+}
+
+.standard-label {
+  width: 200px;
+  text-align: right;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#contact-email,
+#contact-tel,
+#contact-text {
+  box-shadow: 5px 5px 10px black;
 }
 
 /*
@@ -275,6 +294,7 @@ Header
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  background-color: goldenrod;
 }
 
 .page-header_item {
@@ -323,6 +343,7 @@ Footer
   flex-grow: 1;
   max-height: 50px;
   margin: 5px;
+  color: black;
 }
 
 /*
@@ -459,10 +480,21 @@ Grid Fallback
 
   .grid_item {
     background-color: lightgray;
+    color: black;
     width: auto;
     min-height: auto;
     margin: 0;
     padding: 20px;
+  }
+
+  .grid_link {
+    color: black;
+    border: solid black 2px 2px;
+  }
+
+  .grid_title {
+    color: black;
+    text-shadow: 2px 2px white;
   }
 
   .grid_item:last-child {
